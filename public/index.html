@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <meta name="theme-color" content="#000000" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="assets/style/app.css">
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="unsupport_page" style="display:none">
+      <div class="browser-support-page">
+        <div class="brs-sp-header">
+            <img class="brs-sp-header__logo" src="assets/images/ic_logo.png">
+        </div>
+        <div class="brs-sp-content">
+            <div class="brs-sp-content-wrap">
+                <h4 class="brs-sp-content__title">Sorry, your  browser is out-of-date</h4>
+                <p class="brs-sp-content__desc">You are using an old version of <span id="old_browser_name">Chrome</span>. You need to update your browser to use SUITOK. </p>
+                <p class="brs-sp-content__desc">Please setup the latest version of our supported browsers and return back.</p>
+                <div class="browser-list">
+                    <div class="browser-list-item">
+                        <img class="browser-list-item__img" src="assets/images/ic_browser_chrome.png">
+                        <a class="browser-list-item__title" href="https://www.google.com/chrome/">Google <br>Chrome</a>
+                    </div>
+                    <div class="browser-list-item">
+                        <img class="browser-list-item__img" src="assets/images/ic_browser_firefox.png">
+                        <a class="browser-list-item__title" href="https://www.mozilla.org/">Mozilla <br>Firefox</a>
+                    </div>
+                    <div class="browser-list-item">
+                        <img class="browser-list-item__img" src="assets/images/ic_browser_ie.png">
+                        <a class="browser-list-item__title" href="https://www.microsoft.com/en-US/download/internet-explorer.aspx">Microsoft <br>Internet <br>Explorer</a>
+                    </div>
+                    <div class="browser-list-item">
+                        <img class="browser-list-item__img" src="assets/images/ic_browser_safari.png">
+                        <a class="browser-list-item__title" href="https://support.apple.com/en_US/downloads/safari">Apple<br> Safari</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+
+  </body>
+
+  <script src="assets/js/jquery-3.3.1.min.js"></script>
+  <script src="assets/js/platform.js"></script>
+  <script src="assets/js/app.js"></script>
+</html>

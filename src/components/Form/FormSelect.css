@@ -1,0 +1,143 @@
+.select-wrap{
+    width: 100%;
+}
+
+.custom-react-select-container .custom-select__placeholder{
+    font-size: 14px;
+    border: none;
+    height: 17px;
+    line-height: 17px;
+    color: #646464;
+}
+
+.error--empty .custom-react-select-container .custom-select__control{
+    border: 2px solid #CA2F30;
+}
+
+.error--empty .not--empty .custom-react-select-container .custom-select__control{
+    border: 1px solid #000000;
+}
+
+.custom-react-select-container .custom-select__control{
+    border: 1px solid #000000;
+    border-radius: 0px;
+    min-height: 35px;
+    height: 35px;
+}
+
+.custom-react-select-container .custom-select__control.custom-select__control--menu-is-open{
+    border: 2px solid #F36A22 !important
+}
+
+.custom-react-select-container .custom-select__control:hover {
+    border: 2px solid #F36A22 !important
+}
+
+.custom-react-select-container .css-2o5izw{
+    border: 1px solid black;
+    border-radius: 0px;
+    box-shadow: none;
+    min-height: 35px;
+}
+
+.custom-react-select-container .css-2o5izw:hover{
+    border: 1px solid #F36A22 !important
+}
+
+.custom-react-select-container .custom-select__indicator {
+    height: 17px;
+    padding: 9px;
+}
+
+.hide--arrow .custom-react-select-container .custom-select__indicator{
+    display: none;
+}
+
+.custom-react-select-container .custom-select__indicator .css-19bqh2r{
+    top: -9px;
+    position: relative;
+}
+
+.custom-react-select-container .custom-select__indicator-separator{
+    display: none;
+}
+
+.custom-react-select-container .css-1uq0kb5 .css-19bqh2r{
+    /* top: 0px; */
+}
+
+.custom-react-select-container .css-15k3avv{
+    margin-top: 0px;
+}
+
+.custom-react-select-container .custom-select__option{
+    font-family: 'ProximaNova-Regular';
+    font-size: 14px;
+    line-height: 17px;
+    color: #646464;
+    padding: 0px;
+    padding-left: 13px;
+}
+
+.custom-react-select-container .custom-select__option--is-focused{
+    color: white;
+    background-color: #F36A22;
+}
+
+.custom-react-select-container .custom-select__option--is-selected{
+    color: white;
+    background-color: #F36A22;
+}
+
+.custom-react-select-container .custom-select__menu{
+    border: 1px solid #646464;
+    box-shadow: none;
+    border-top: 0px;
+    border-radius: 0px;
+}
+
+.custom-react-select-container .custom-select__menu-list{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.custom-react-select-container .custom-select__menu-list::-webkit-scrollbar{
+    display: block;
+}
+
+.custom-select__single-value{
+    font-size: 14px;
+    line-height: 17px;
+    font-family: 'ProximaNova-Regular';
+}
+
+.custom-select__menu-notice{
+    font-size: 14px;
+    line-height: 17px;
+    font-family: 'ProximaNova-Semibold';
+    color: #646464 !important;
+    padding: 3.5px !important;
+    text-align: left !important;
+    padding-left: 10px !important;
+}
+
+@media (max-width: 767px){
+    .custom-select__single-value{
+        font-size: 11px;
+        line-height: 13px;
+        margin-left: 8px !important;
+    }
+
+    .custom-react-select-container .custom-select__control{
+        min-height: 31px;
+        height: 31px;
+    }
+
+    .custom-select__value-container{
+        padding-left: 13px;
+    }
+
+    .custom-react-select-container .custom-select__indicator{
+        padding: 7px 2px;
+    }
+}
